@@ -24,7 +24,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🙋 Help', url=f"https://t.me/PostWildBot?start=help"),
+                InlineKeyboardButton('🙋 Help', url=f"https://t.me/UncutFlixBot?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
